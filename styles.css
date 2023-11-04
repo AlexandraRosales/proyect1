@@ -1,0 +1,96 @@
+/* Estilos generales */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+   margin: 0;
+    padding: 0;
+    background-color:#E6E2EE ;
+}
+
+/* Estilos del header */
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 15px;
+    background: #9B83D2;
+    text-align: center;
+}
+.frase{
+    font-family: 'Satisfy', cursive; 
+       color: black;
+}
+
+.logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:230px;
+    width: 350px;
+    color: #fff;
+}
+p{
+    color: black;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    gap: 30px;
+}
+
+/* Estilos del jumbotron */
+.jumbotron {
+    background-image: url("jumbotron-image.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Estilos del catálogo */
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+
+/* Estilos del contacto */
+.contact {
+    text-align: center;
+    padding: 80px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
